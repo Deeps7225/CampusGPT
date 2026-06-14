@@ -1,4 +1,3 @@
 __pycache__/
-vector_db/
 *.pyc
 .env
