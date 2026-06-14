@@ -144,7 +144,7 @@ if uploaded_file is not None:
 
 llm = ChatGroq(
     model="llama-3.3-70b-versatile",
-    api_key="YOUR_GROQ_API_KEY"
+    api_key="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"
 )
 
 # -------------------------
@@ -212,7 +212,7 @@ if question:
     # General Knowledge Fallback
     # -------------------------
 
-    if best_score > 1.5:
+    if best_score > 1.4:
 
         response = llm.invoke(question)
 
